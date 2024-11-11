@@ -13,10 +13,11 @@ namespace ExpenseTracker
     
     internal class ExpenseMain
     {
-        private SqlConnection sqlConnection;
-        private string connectionString = ConfigurationManager.ConnectionStrings["ExpenseTracker.Properties.Settings.FilipDBConnectionString"].ConnectionString;
         private DateTimeClass timeClass;
         private MoneyExpenseDetails moneyExpenseDetails;
+
+        // U Constructoru pozivam class MoneyExpenseDetails i class DateTime i printujem u consoli preko Program.cs
+        
         public ExpenseMain()
         {
             PrintMainProgram();
@@ -27,24 +28,8 @@ namespace ExpenseTracker
             timeClass = new DateTimeClass();
             Console.WriteLine($"{timeClass.DateNow()}");
             moneyExpenseDetails = new MoneyExpenseDetails();
-
         }
 
 
-
-
-        // OVO ISPOD MI JE ZA POVEZIVANJE SA SQL TO CU ODRADITI POSLE
-
-
-        // Klasa za kasnije, kada budem vec napravio sve sto je potrebno za izvrsavanje, onda cu da povezem sa SQL ------------------------
-        private void DaNEZaboravim()
-        {
-            sqlConnection = new SqlConnection(connectionString);
-            string query = "select * from ExpenseTracker";
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
-        }
-         
-        // Stavicu While petlju da moze da se ocitava dok god ne napisem u consoli q ili space i enter, tako nesto, onda se while petlja zavrsava i pocinje nova while petlja 
-        // za earn i earn String (details) ili cu staviti sve u jedan while, videcemo
     }
 }
