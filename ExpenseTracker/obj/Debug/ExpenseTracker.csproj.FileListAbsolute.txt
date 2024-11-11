@@ -1,0 +1,7 @@
+C:\Users\slobo\source\repos\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.exe.config
+C:\Users\slobo\source\repos\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.exe
+C:\Users\slobo\source\repos\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.pdb
+C:\Users\slobo\source\repos\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.csproj.AssemblyReference.cache
+C:\Users\slobo\source\repos\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.csproj.CoreCompileInputs.cache
+C:\Users\slobo\source\repos\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.exe
+C:\Users\slobo\source\repos\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.pdb
